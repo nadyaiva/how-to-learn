@@ -249,9 +249,6 @@
 /* ПЕРВАЯ КОЛОНКА */
 
 .footet__column_content_copyright {
-  margin: 0;
-  padding: 0;
-  list-style: none;
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -272,7 +269,6 @@
 .footet__column_content_info {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 .footer__column-heading {
@@ -303,9 +299,9 @@
 .footet__column_content_social {
   margin: 0;
   padding: 0;
-  list-style: none;
   text-decoration: none;
 }
+
 .social-icon {
   width: 16px;
   height: 16px;
