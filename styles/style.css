@@ -45,6 +45,7 @@
   bottom: 0;
   height: 608px;
   width: 765px;
+  object-fit: contain;
   z-index: 1;
 }
 
@@ -210,6 +211,7 @@
 .kaufman__triangle {
   height: 877px;
   width: 877px;
+  object-fit: contain;
   position: absolute;
   top: 0px;
   right: -210px;
