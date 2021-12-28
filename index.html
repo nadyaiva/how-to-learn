@@ -11,13 +11,14 @@
     <div class="page">
       <!-- HEADER -->
       <header class="header">
-        <div class="logo logo_place_header">
-          <a href="https://practicum.yandex.ru/"></a>
-        </div>
+        <a
+          class="logo logo_place_header"
+          href="https://practicum.yandex.ru/"
+        ></a>
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
-          использовать в своей жизни? <a class="header__link">Узнать →</a>
+          использовать в своей жизни? <a class="header__link">Узнать &rarr;</a>
         </p>
         <div class="header__square-pic"></div>
         <img
@@ -56,7 +57,7 @@
         <!-- DIGITS -->
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
-          <h3 class="section-subtitle">Про учёбу и мозг</h3>
+          <p class="section-subtitle">Про учёбу и мозг</p>
           <ul class="table">
             <li class="table__cell">
               <h4 class="table__heading">86 миллиардов</h4>
@@ -106,17 +107,10 @@
         <section class="feynman">
           <h2 class="feynman__title">Метод Феймана</h2>
           <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-          <a class="feynman__subtitle feynman__subtitle_link_blue" href="#">
-            Подробнее →
-          </a>
+          <a class="feynman__subtitle feynman__link" href="#"> Подробнее → </a>
         </section>
         <!-- KAUFMAN -->
         <section class="kaufman">
-          <img
-            class="kaufman__triangle"
-            src="./images/kaufman-triangle.svg"
-            alt="Треугольник"
-          />
           <h2 class="section-title section-title_theme_dark">Цифры и факты</h2>
           <h3 class="section-subtitle section-subtitle_theme_dark">
             от Джоша Кауфмана
@@ -188,13 +182,13 @@
       <!-- FOOTER -->
       <footer class="footer">
         <div class="footer__columns">
-          <div class="footet__column_content_copyright">
+          <div class="footet__column footet__column_content_copyright">
             <div class="logo logo_place_footer"></div>
-            <div class="footer__author">&copy;2021 Иванова Надежда</div>
+            <h2 class="footer__author">&copy;2021 Иванова Надежда</h2>
           </div>
 
-          <nav class="footet__column_content_info">
-            <div class="footer__column-heading">О Практикуме</div>
+          <nav class="footet__column footet__column_content_info">
+            <p class="footer__column-heading">О Практикуме</p>
             <ul class="footer__column-links">
               <li><a class="footer__column-link" href="#">Главная</a></li>
               <li><a class="footer__column-link" href="#">Концепция</a></li>
@@ -202,8 +196,8 @@
             </ul>
           </nav>
 
-          <div class="footet__column_content_social">
-            <div class="footer__column-heading">Соцсети</div>
+          <div class="footet__column footet__column_content_social">
+            <p class="footer__column-heading">Соцсети</p>
 
             <ul class="footer__column-links">
               <li>
@@ -214,7 +208,7 @@
                   <img
                     src="./images/facebook_color_white.svg"
                     alt="Логотип Facebook"
-                    class="social-icon"
+                    class="footer__social-icon"
                   />Facebook</a
                 >
               </li>
@@ -226,7 +220,7 @@
                   ><img
                     src="./images/vk_color_white.svg"
                     alt="Логотип Вконтакте"
-                    class="social-icon"
+                    class="footer__social-icon"
                   />ВКонтакте</a
                 >
               </li>
@@ -238,7 +232,7 @@
                   ><img
                     src="./images/instagram_color_white.svg"
                     alt="Логотип Instagram"
-                    class="social-icon"
+                    class="footer__social-icon"
                   />Instagram</a
                 >
               </li>
