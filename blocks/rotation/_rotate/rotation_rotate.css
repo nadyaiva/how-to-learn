@@ -1,0 +1,4 @@
+@import url(../../rotation/rotation.css);
+.rotation_rotate {
+  animation: rotation 20s linear infinite;
+}
