@@ -5,7 +5,7 @@
   top: 50%;
   z-index: 1;
   text-decoration: none;
-  transition: opacity 0.3s ease-in;
+  transition: opacity 0.2s ease-in;
 }
 
 .feynman__link:hover {

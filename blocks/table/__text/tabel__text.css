@@ -4,3 +4,7 @@
   font-weight: normal;
   margin: 0;
 }
+
+.table__text:last-of-type {
+  margin-top: 20px;
+}
