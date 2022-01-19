@@ -2,7 +2,7 @@
   height: 877px;
   width: 877px;
 
-  object-fit: contain;
+  background-size: contain;
   position: absolute;
   top: 0px;
   right: -210px;
