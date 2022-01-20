@@ -2,3 +2,7 @@
   width: 515px;
   height: 316px;
 }
+
+.video__iframe iframe {
+  border: none;
+}
