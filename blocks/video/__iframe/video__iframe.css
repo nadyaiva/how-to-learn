@@ -1,9 +1,8 @@
 .video__iframe {
   width: 515px;
   height: 316px;
-  list-style: none;
-}
-
-.video__iframe iframe {
   border: none;
+  list-style: none;
+  width: 515;
+  height: 316;
 }
