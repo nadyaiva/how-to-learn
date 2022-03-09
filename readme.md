@@ -16,3 +16,5 @@
 - adding more educational videos;
 - adding all vendor prefixes for cross-browser compatibility;
 - designing a web form for comments.
+
+Check out result [here](https://nadyaiva.github.io/how-to-learn/)
